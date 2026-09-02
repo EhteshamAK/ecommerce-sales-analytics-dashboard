@@ -1,54 +1,10 @@
-# ecommerce-sales-analytics-dashboard
-# E-Commerce Sales & Customer Analytics Dashboard
+# E-Commerce Sales Analytics Dashboard
 
-## 📌 Overview
+A sales analysis project using **SQL, Excel and Power BI** to understand revenue, customer behaviour and order performance.
 
-This project analyzes e-commerce sales data to uncover key insights into revenue performance, customer behavior, and operational efficiency.
-The analysis was conducted using SQL, Excel, and Power BI to simulate a real-world data analytics workflow.
+The aim was to answer practical business questions: what is driving revenue, who the main customers are, and where performance could be improved.
 
----
-
-## 🛠 Tools & Technologies
-
-* SQL (BigQuery) – data extraction and analysis
-* Excel – data cleaning and validation
-* Power BI – interactive dashboard and visualization
-
----
-
-## ❓ Business Questions
-
-* Which product categories generate the highest revenue?
-* Who are the top customers by spending?
-* What are the monthly sales trends?
-* Which payment methods are most used?
-* How do customer demographics impact revenue?
-
----
-
-## 📊 Key Insights
-
-### Revenue Insights
-
-* Electronics is the primary revenue driver, significantly outperforming other categories.
-* Home Decor generates the lowest revenue, indicating potential growth opportunities.
-* April recorded the highest revenue, suggesting seasonal demand patterns.
-
-### Customer Insights
-
-* Male customers contribute approximately 63% of total revenue.
-* Customers aged 18–24 are the highest spending segment.
-* Customers aged 50+ contribute the least revenue.
-
-### Operational Insights
-
-* Credit cards are the most commonly used payment method, while PayPal usage is minimal.
-* Same-day delivery is the most preferred shipping option.
-* Electronics products receive the highest average customer ratings.
-
----
-
-## 📈 Dashboard Preview
+## Dashboard
 
 ### Executive Overview
 
@@ -62,50 +18,56 @@ The analysis was conducted using SQL, Excel, and Power BI to simulate a real-wor
 
 ![Operations](Screenshots/Operation_dashboard.png)
 
----
+## Tools
 
-## 📂 Repository Structure
+* **SQL (BigQuery)** — querying and analysing the data
+* **Excel** — cleaning and checking the data
+* **Power BI** — dashboard and reporting
 
-```
-ecommerce-sales-analytics-dashboard/
-│── README.md
-│
-├── data/
-│   └── raw_dataset.csv
-│
-├── sql/
-│   └── analysis_queries.sql
-│
-├── excel/
-│   └── cleaned_data.xlsx
-│
-├── powerbi/
-│   └── dashboard.pbix
+## What I Analysed
 
+I looked at:
 
-```
+* Revenue by product category
+* Monthly sales performance
+* Customer age and gender
+* Top customers by spending
+* Payment methods
+* Shipping preferences
+* Product ratings
 
----
+## Key Findings
 
-## ▶️ How to Use
+**Electronics was the strongest product category**, generating the highest revenue. Home Decor generated the lowest revenue.
 
-1. Review SQL queries in the `/sql` folder
-2. Open the Excel file to view cleaned datasets
-3. Open the Power BI `.pbix` file to explore the interactive dashboard
+**April was the strongest month for sales**, showing that revenue was not evenly distributed throughout the year.
 
----
+**Customers aged 18–24 were the highest-spending age group**, while customers aged 50+ contributed the least revenue.
 
-## 🚀 Project Outcome
+**Male customers generated around 63% of total revenue**, showing a noticeable difference in revenue by gender.
 
-This project demonstrates an end-to-end data analytics workflow:
+**Credit card was the most commonly used payment method**, while PayPal had relatively low usage.
 
-* Data extraction and transformation using SQL
-* Data preparation and validation in Excel
-* Interactive dashboard creation in Power BI
-* Translation of data into actionable business insights
+**Same-day delivery was the most popular shipping option**, suggesting customers value faster delivery.
 
----
+Electronics also received the **highest average customer ratings**, so the category performed strongly in both revenue and customer feedback.
 
-## 📬 Contact
+## Business Takeaways
 
-Feel free to connect with me on LinkedIn or reach out for collaboration opportunities.
+The analysis suggests that Electronics should remain an important category for the business, while lower-performing categories such as Home Decor may need further investigation.
+
+The strong contribution from younger customers could also be useful when planning promotions and customer targeting.
+
+Since same-day delivery was the most popular shipping option, delivery speed appears to be an important part of the customer experience.
+
+## Repository
+
+* `sql/` — SQL analysis
+* `excel/` — Excel analysis and supporting data
+* `power bi/` — Power BI dashboard
+* `screenshots/` — dashboard screenshots
+
+## About the Project
+
+This is a portfolio project created to practise the type of sales and customer analysis carried out by data analysts. The focus was not only on building a dashboard, but on using the data to answer business questions and explain what the results mean.
+
