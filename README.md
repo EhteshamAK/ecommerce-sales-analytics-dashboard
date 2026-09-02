@@ -52,7 +52,7 @@ The analysis was conducted using SQL, Excel, and Power BI to simulate a real-wor
 
 ### Executive Overview
 
-![Executive Dashboard](images/dashboard_overview.png)
+![Executive Dashboard](Screenshots/Executive_Overview.png)
 
 ### Customer Insights
 
