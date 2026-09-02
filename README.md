@@ -56,11 +56,11 @@ The analysis was conducted using SQL, Excel, and Power BI to simulate a real-wor
 
 ### Customer Insights
 
-![Customer Insights](images/customer_insights.png)
+![Customer Insights](Screenshots/Customer_Insights.png)
 
 ### Operations Dashboard
 
-![Operations](images/operations.png)
+![Operations](Screenshots/Operation_dashboard.png)
 
 ---
 
